@@ -1,0 +1,1 @@
+export { default as GithubApp } from './container';

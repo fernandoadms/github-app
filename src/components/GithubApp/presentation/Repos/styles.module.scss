@@ -1,0 +1,21 @@
+.repo {
+  h2 {
+    font-size: 1.5em;
+    margin: 0 0 .5em;
+  }
+
+  ul {
+    li {
+      display: block;
+      padding: .75em 0;
+  
+    + li {
+        border-top:1px solid #f2f2f2;
+      }
+    }
+  }
+
+  + .repo {
+    margin: 2em 0 0 0;
+  }
+}
